@@ -29,7 +29,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 510px;
@@ -38,6 +37,7 @@ section#login{
     overflow: hidden;
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
     
 }
 section#login > div#imagem{
@@ -84,11 +84,11 @@ div.campo > input{
     background-image: linear-gradient(to right, #602c82a9, #49a09dc3);
     font-size: 1em;
     border: none;
-    transform: translate(-2px, -9.5px);
-    width: calc(100% - 46.5px);
     height: 100%;
     border-radius: 8px;
     text-align: center;
+    transform: translate(-2px, -9.5px);
+    width: calc(100% - 46.5px);
     
     
 }
