@@ -58,6 +58,19 @@ div#formulario > p{
     font-size: 0.9em;
 }
 
+div.campo > label{
+    display: none;
+}
+
+form > div.campo{
+    background-image: linear-gradient(to right, #602c82bd, #49a09dc3);    
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
